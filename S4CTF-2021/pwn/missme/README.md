@@ -79,7 +79,7 @@ it simply runs a loop just twice to perform the following:
 1. get an input string of at most 0x900 and store it at `rbp - 0x818` (stack overflow)
 2. print it using printf and then fflush to force output buffer write (format string vulnerability)
 
-# exploit
+## exploit
 
 we get to do this twice...
 
